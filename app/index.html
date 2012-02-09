@@ -1,5 +1,5 @@
 <!doctype html>
-<html xmlns:ng="http://angularjs.org/">
+<html ng-app="myApp" xmlns:ng="http://angularjs.org/">
 <head>
   <meta charset="utf-8">
   <title>my angular app</title>
@@ -13,7 +13,8 @@
 
   <ng:view></ng:view>
 
-  <script src="lib/angular/angular.js" ng:autobind></script>
+  <script src="lib/angular/angular.js"></script>
+  <script src="js/module.js"></script>
   <script src="js/services.js"></script>
   <script src="js/controllers.js"></script>
   <script src="js/filters.js"></script>
